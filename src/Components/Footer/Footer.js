@@ -2,13 +2,15 @@ import React from 'react';
 import Classes from './Footer.module.css';
 
 const Footer = () => {
+  const d = new Date();
+  const year = d.getFullYear();
   return (
     <footer className={Classes.footer}>
       <div className="d-sm-flex justify-content-center justify-content-sm-between">
         <span className="text-muted d-block text-center text-sm-left d-sm-inline-block">
-          Copyright © bootstrapdash.com 2020
+          Copyright © corona.com {year}
         </span>
-        <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+        <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-light">
           Free
           <a
             href="https://www.bootstrapdash.com/bootstrap-admin-template/"
