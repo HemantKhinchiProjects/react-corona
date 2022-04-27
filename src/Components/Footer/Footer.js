@@ -11,14 +11,14 @@ const Footer = () => {
           Copyright © corona.com {year}
         </span>
         <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-light">
-          Free
+          Free &nbsp;
           <a
             href="https://www.bootstrapdash.com/bootstrap-admin-template/"
             target="_blank"
           >
             Bootstrap admin templates
           </a>
-          from Bootstrapdash.com
+          &nbsp; from Trickwow.com
         </span>
       </div>
     </footer>
