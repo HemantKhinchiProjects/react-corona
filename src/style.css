@@ -66,6 +66,17 @@
 .container-scroller {
   overflow: hidden;
 }
+.ml-2,
+.btn-toolbar .btn-group + .btn-group,
+.btn-toolbar .fc .fc-button-group + .btn-group,
+.fc .btn-toolbar .fc-button-group + .btn-group,
+.btn-toolbar .fc .btn-group + .fc-button-group,
+.fc .btn-toolbar .btn-group + .fc-button-group,
+.btn-toolbar .fc .fc-button-group + .fc-button-group,
+.fc .btn-toolbar .fc-button-group + .fc-button-group,
+.mx-2 {
+  margin-left: 0.5rem !important;
+}
 /*style for card*/
 .grid-margin {
   margin-bottom: 1.5rem;
@@ -97,7 +108,20 @@
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  color: #ffffff;
 }
 .card .card-body {
   padding: 1.75rem 1.5625rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon.icon-box-success {
+  width: 40px;
+  height: 37px;
+  background: rgba(0, 210, 91, 0.11);
+  border-radius: 7px;
+  color: #00d25b;
 }

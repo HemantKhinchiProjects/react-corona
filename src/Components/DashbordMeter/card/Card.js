@@ -14,7 +14,9 @@ const Card = () => {
             </div>
             <div class="col-3">
               <div class="icon icon-box-success ">
-                <span class="mdi mdi-arrow-top-right icon-item"></span>
+                <span class="mdi mdi-arrow-top-right icon-item">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                </span>
               </div>
             </div>
           </div>
