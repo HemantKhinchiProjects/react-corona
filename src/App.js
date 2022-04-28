@@ -3,7 +3,7 @@ import './style.css';
 import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
 import SideBar from './Components/Navbar/SideBar';
-import DashBordMeters from './Components/DashbordMeters/DashBordMeters';
+import DashBordMeters from './Components/DashbordMeter/DashBordMeters';
 export default function App() {
   return (
     <div className="container-scroller">
