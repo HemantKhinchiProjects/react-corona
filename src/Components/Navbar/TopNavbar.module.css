@@ -16,7 +16,7 @@
   width: 244px;
   height: 70px;
 }
-.navbar-menu-wrapper {
+.navbar > .navbar-menu-wrapper {
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
   -moz-transition: width 0.25s ease;
