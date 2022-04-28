@@ -6,7 +6,7 @@ const TopNavbar = () => {
     <nav className="navbar p-0 fixed-top d-flex flex-row">
       <div className="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
         <a className="navbar-brand brand-logo-mini" href="index.html">
-          <img src="assets/images/logo-mini.svg" alt="logo" />
+          <i class="fa-solid fa-blog"></i>
         </a>
       </div>
       <div className="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
