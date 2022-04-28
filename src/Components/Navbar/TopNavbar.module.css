@@ -7,6 +7,20 @@
   -moz-transition: left 0.25s ease;
   -ms-transition: left 0.25s ease;
 }
+.navbar-menu-wrapper {
+  transition: width 0.25s ease;
+  -webkit-transition: width 0.25s ease;
+  -moz-transition: width 0.25s ease;
+  -ms-transition: width 0.25s ease;
+  box-shadow: 20px 19px 34px -15px rgb(0 0 0 / 50%);
+  -webkit-box-shadow: 20px 19px 34px -15px rgb(0 0 0 / 50%);
+  -moz-box-shadow: 20px 19px 34px -15px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 70px;
+}
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;

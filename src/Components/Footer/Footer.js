@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={Classes.footer}>
       <div className="d-sm-flex justify-content-center justify-content-sm-between">
         <span className="text-muted d-block text-center text-sm-left d-sm-inline-block">
-          Copyright © corona.com {year}
+          Copyright © DemoProject.com {year}
         </span>
         <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-light">
           Free &nbsp;
@@ -18,7 +18,7 @@ const Footer = () => {
           >
             Bootstrap admin templates
           </a>
-          &nbsp; from Trickwow.com
+          &nbsp; from DemoProject.com
         </span>
       </div>
     </footer>
