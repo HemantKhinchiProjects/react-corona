@@ -252,7 +252,7 @@ const SideBar = () => {
         <li className="nav-item nav-category">
           <span className="nav-link">Navigation</span>
         </li>
-        <li className="nav-item menu-items">
+        <li className="nav-item menu-items active">
           <a className="nav-link" href="index.html">
             <span className="menu-icon">
               <i className="mdi mdi-speedometer"></i>
