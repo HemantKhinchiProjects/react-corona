@@ -7,4 +7,4 @@ const DashBordMeters = () => {
     </div>
   );
 };
-export default DashbordMeters;
+export default DashBordMeters;
