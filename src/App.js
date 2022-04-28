@@ -3,6 +3,7 @@ import './style.css';
 import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
 import SideBar from './Components/Navbar/SideBar';
+import DashbordMeters from './Components/DashbordMeters/DashBordMeters';
 export default function App() {
   return (
     <div className="container-scroller">
@@ -10,7 +11,9 @@ export default function App() {
       <div className="container-fluid page-body-wrapper">
         <TopNavbar />
         <main className="main-panel">
-          <div className="content-wrapper"></div>
+          <div className="content-wrapper">
+            <DashBordMeters />
+          </div>
           <Footer />
         </main>
       </div>
