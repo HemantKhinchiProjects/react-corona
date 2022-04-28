@@ -256,7 +256,7 @@ const SideBar = () => {
         <li className="nav-item menu-items active">
           <a className="nav-link" href="index.html">
             <span className="menu-icon">
-            <SpeedSharpIcon/>
+              <SpeedSharpIcon />
             </span>
             <span className="menu-title">Dashboard</span>
           </a>
