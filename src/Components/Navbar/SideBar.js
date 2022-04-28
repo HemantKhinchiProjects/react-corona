@@ -1,4 +1,5 @@
 import React from 'react';
+import SpeedSharpIcon from '@mui/icons-material/SpeedSharp';
 import './Sidebar.css';
 const SideBar = () => {
   return (
@@ -197,7 +198,7 @@ const SideBar = () => {
                 <span className="count bg-success"></span>
               </div>
               <div className="profile-name">
-                <h5 className="mb-0 font-weight-normal">Henry Klein</h5>
+                <h5 className="mb-0 font-weight-normal">Henry Klein </h5>
                 <span>Gold Member</span>
               </div>
             </div>
@@ -255,7 +256,7 @@ const SideBar = () => {
         <li className="nav-item menu-items active">
           <a className="nav-link" href="index.html">
             <span className="menu-icon">
-              <i className="mdi mdi-speedometer"></i>
+            <SpeedSharpIcon/>
             </span>
             <span className="menu-title">Dashboard</span>
           </a>
