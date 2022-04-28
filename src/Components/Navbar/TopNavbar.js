@@ -1,5 +1,5 @@
 import React from 'react';
-import Classes from './TopNavbar.module.css';
+import './TopNavbar.css';
 
 const TopNavbar = () => {
   return (

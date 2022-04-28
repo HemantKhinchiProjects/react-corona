@@ -2,9 +2,11 @@ import React from 'react';
 import './style.css';
 import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
+import SideBar from './Components/Navbar/SideBar';
 export default function App() {
   return (
     <div className="container-scroller">
+      <SideBar />
       <div className="container-fluid page-body-wrapper">
         <TopNavbar />
         <main className="main-panel">
