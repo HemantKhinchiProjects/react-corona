@@ -21,8 +21,8 @@
   padding-top: 70px;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 .content-wrapper {
   background: #000000;
@@ -57,3 +57,10 @@
   height: 70px;
 }
 /* for navbar start */
+.container-scroller {
+  display: flex;
+  position: relative;
+}
+.container-scroller {
+  overflow: hidden;
+}
