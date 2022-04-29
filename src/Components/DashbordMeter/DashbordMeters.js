@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Data from './data';
 import Card from './card/Card';
 const DashBordMeters = () => {
+  const [dailyData, setDelyData] = useState(Data);
   return (
     <div>
-      <Card />
+      <Card dailyDsta={dailyData} />
     </div>
   );
 };
