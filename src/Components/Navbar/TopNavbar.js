@@ -89,7 +89,7 @@ const TopNavbar = () => {
           </li>
           <li className="nav-item nav-settings d-none d-lg-block">
             <a className="nav-link" href="#">
-              <i className="mdi mdi-view-grid"></i>
+              <i class="fa-solid fa-border-all"></i>
             </a>
           </li>
           <li className="nav-item dropdown border-left">
@@ -100,7 +100,7 @@ const TopNavbar = () => {
               data-toggle="dropdown"
               aria-expanded="false"
             >
-              <i className="mdi mdi-email"></i>
+              <i class="fa-solid fa-envelope"></i>
               <span className="count bg-success"></span>
             </a>
             <div
@@ -167,7 +167,7 @@ const TopNavbar = () => {
               href="#"
               data-toggle="dropdown"
             >
-              <i className="mdi mdi-bell"></i>
+              <i class="fa-solid fa-bell"></i>
               <span className="count bg-danger"></span>
             </a>
             <div
@@ -228,7 +228,7 @@ const TopNavbar = () => {
               <div className="navbar-profile">
                 <img
                   className="img-xs rounded-circle"
-                  src="assets/images/faces/face15.jpg"
+                  src="https://img.icons8.com/emoji/344/neutral-person-medium-light-skin-tone.png"
                   alt=""
                 />
                 <p className="mb-0 d-none d-sm-block navbar-profile-name">

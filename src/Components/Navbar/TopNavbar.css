@@ -79,3 +79,7 @@
   margin-bottom: 0;
   list-style: none;
 }
+.navbar-profile img {
+  max-width: 32px;
+  height: auto;
+}
