@@ -144,3 +144,6 @@
   visibility: hidden;
   z-index: -1;
 }
+.flex-grow {
+  flex-grow: 1;
+}
