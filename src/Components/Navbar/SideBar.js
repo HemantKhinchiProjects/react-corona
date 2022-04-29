@@ -270,7 +270,7 @@ const SideBar = () => {
             aria-controls="ui-basic"
           >
             <span className="menu-icon">
-            <i class="fa-solid fa-laptop-code"></i>
+              <i class="fa-solid fa-laptop-code"></i>
             </span>
             <span className="menu-title">Basic UI Elements</span>
             <i className="menu-arrow"></i>
@@ -304,7 +304,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <a className="nav-link" href="pages/forms/basic_elements.html">
             <span className="menu-icon">
-            <i class="fa-solid fa-list-check"></i>
+              <i class="fa-solid fa-list-check"></i>
             </span>
             <span className="menu-title">Form Elements</span>
           </a>
@@ -312,7 +312,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <a className="nav-link" href="pages/tables/basic-table.html">
             <span className="menu-icon">
-            <i class="fa-solid fa-table"></i>
+              <i class="fa-solid fa-table"></i>
             </span>
             <span className="menu-title">Tables</span>
           </a>
@@ -320,7 +320,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <a className="nav-link" href="pages/charts/chartjs.html">
             <span className="menu-icon">
-            <i class="fa-solid fa-chart-pie"></i>
+              <i class="fa-solid fa-chart-pie"></i>
             </span>
             <span className="menu-title">Charts</span>
           </a>
@@ -328,7 +328,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <a className="nav-link" href="pages/icons/mdi.html">
             <span className="menu-icon">
-            <i class="fa-solid fa-font-awesome"></i>
+              <i class="fa-solid fa-font-awesome"></i>
             </span>
             <span className="menu-title">Icons</span>
           </a>
@@ -342,7 +342,7 @@ const SideBar = () => {
             aria-controls="auth"
           >
             <span className="menu-icon">
-            <i class="fa-solid fa-file"></i>
+              <i class="fa-solid fa-file"></i>
             </span>
             <span className="menu-title">User Pages</span>
             <i className="menu-arrow"></i>
@@ -393,7 +393,7 @@ const SideBar = () => {
             href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html"
           >
             <span className="menu-icon">
-            <i class="fa-solid fa-book"></i>
+              <i class="fa-solid fa-book"></i>
             </span>
             <span className="menu-title">Documentation</span>
           </a>

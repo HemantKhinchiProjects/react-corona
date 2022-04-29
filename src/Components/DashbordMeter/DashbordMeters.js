@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import Data from './data';
 import Card from './card/Card';
 const DashBordMeters = () => {
-  const [dailyData, setDelyData] = useState(Data);
+  const [dailyData] = useState(Data);
   return (
-    <div>
-      <Card dailyDsta={dailyData} />
+    <div className="row">
+      {dailyData.map((info) => {
+        const { id, dec, amount, groth } = info;
+        return <Card key={id} dec={dec} amount={amount} groth={groth} />;
+      })}
     </div>
   );
 };
