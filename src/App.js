@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
 import SideBar from './Components/Navbar/SideBar';
 import DashBordMeters from './Components/DashbordMeter/DashbordMeters';
+import TransactionHistory from './Components/transactionHistory/TransactionHistory';
 export default function App() {
   return (
     <div className="container-scroller">
@@ -13,6 +14,9 @@ export default function App() {
         <main className="main-panel">
           <div className="content-wrapper">
             <DashBordMeters />
+            <div className="row">
+              <TransactionHistory />
+            </div>
           </div>
           <Footer />
         </main>
