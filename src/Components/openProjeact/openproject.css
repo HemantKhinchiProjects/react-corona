@@ -1,0 +1,33 @@
+.preview-list .preview-item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  padding: 1rem 0rem;
+  font-size: 0.875rem;
+}
+.border-bottom {
+  border-bottom: 1px solid #2c2e33 !important;
+}
+.preview-list .preview-item .preview-thumbnail {
+  color: #ffffff;
+  position: relative;
+}
+.preview-list .preview-item .preview-thumbnail img,
+.preview-list .preview-item .preview-thumbnail .preview-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.preview-list .preview-item .preview-item-content {
+  line-height: 1;
+  padding-left: 15px;
+}
