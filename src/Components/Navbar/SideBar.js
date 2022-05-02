@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import SpeedSharpIcon from '@mui/icons-material/SpeedSharp';
 import './Sidebar.css';
 const SideBar = () => {
@@ -254,27 +255,28 @@ const SideBar = () => {
           <span className="nav-link">Navigation</span>
         </li>
         <li className="nav-item menu-items active">
-          <a className="nav-link" href="index.html">
+          <NavLink className="nav-link" to="/dashbord" activeClassName="active">
             <span className="menu-icon">
               <i class="fa-solid fa-gauge-high"></i>
             </span>
             <span className="menu-title">Dashboard</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item menu-items">
-          <a
+          <NavLink
             className="nav-link"
             data-toggle="collapse"
-            href="#ui-basic"
+            to="ui-element"
             aria-expanded="false"
             aria-controls="ui-basic"
+            activeClassName="active"
           >
             <span className="menu-icon">
               <i class="fa-solid fa-laptop-code"></i>
             </span>
             <span className="menu-title">Basic UI Elements</span>
             <i className="menu-arrow"></i>
-          </a>
+          </NavLink>
           <div className="collapse" id="ui-basic">
             <ul className="nav flex-column sub-menu">
               <li className="nav-item">
@@ -302,51 +304,68 @@ const SideBar = () => {
           </div>
         </li>
         <li className="nav-item menu-items">
-          <a className="nav-link" href="pages/forms/basic_elements.html">
+          <NavLink
+            className="nav-link"
+            to="pages/forms"
+            activeClassName="active"
+          >
             <span className="menu-icon">
               <i class="fa-solid fa-list-check"></i>
             </span>
             <span className="menu-title">Form Elements</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item menu-items">
-          <a className="nav-link" href="pages/tables/basic-table.html">
+          <NavLink
+            className="nav-link"
+            to="pages/tables"
+            activeClassName="active"
+          >
             <span className="menu-icon">
               <i class="fa-solid fa-table"></i>
             </span>
             <span className="menu-title">Tables</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item menu-items">
-          <a className="nav-link" href="pages/charts/chartjs.html">
+          <NavLink
+            className="nav-link"
+            to="pages/charts"
+            activeClassName="active"
+          >
             <span className="menu-icon">
               <i class="fa-solid fa-chart-pie"></i>
             </span>
             <span className="menu-title">Charts</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item menu-items">
-          <a className="nav-link" href="pages/icons/mdi.html">
+          <NavLink
+            className="nav-link"
+            to="pages/icons"
+            activeClassName="active"
+          >
             <span className="menu-icon">
               <i class="fa-solid fa-font-awesome"></i>
             </span>
             <span className="menu-title">Icons</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item menu-items">
-          <a
+          <NavLink
             className="nav-link"
             data-toggle="collapse"
-            href="#auth"
+            to="/user"
             aria-expanded="false"
             aria-controls="auth"
+            activeClassName="active"
           >
             <span className="menu-icon">
               <i class="fa-solid fa-file"></i>
             </span>
             <span className="menu-title">User Pages</span>
             <i className="menu-arrow"></i>
-          </a>
+          </NavLink>
           <div className="collapse" id="auth">
             <ul className="nav flex-column sub-menu">
               <li className="nav-item">
@@ -388,15 +407,12 @@ const SideBar = () => {
           </div>
         </li>
         <li className="nav-item menu-items">
-          <a
-            className="nav-link"
-            href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html"
-          >
+          <NavLink className="nav-link" to="/document" activeClassName="active">
             <span className="menu-icon">
               <i class="fa-solid fa-book"></i>
             </span>
             <span className="menu-title">Documentation</span>
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
