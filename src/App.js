@@ -11,10 +11,10 @@ import SalseMetor from './Components/salseMetor/SalseMetor';
 
 import Dashbord from './Pages/dashbord/Dashbord';
 import UsePages from './Pages/use-pages/UsePages';
-import Document from './Pages/use-pages/Document';
 import Charts from './Pages/dashbord/Charts';
 import FormElement from './Pages/dashbord/FormElement';
 import Icons from './Pages/dashbord/Icons';
+import Document from './Pages/use-pages/Document';
 
 export default function App() {
   return (
@@ -33,7 +33,7 @@ export default function App() {
             <Charts />
           </Route>
           <Route path="/pages/Form-element">
-            <Form-element />
+            <FormElement />
           </Route>
           <Route path="/pages/icons">
             <Icons />
