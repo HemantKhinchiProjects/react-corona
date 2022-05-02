@@ -266,7 +266,7 @@ const SideBar = () => {
           <NavLink
             className="nav-link"
             data-toggle="collapse"
-            to="ui-element"
+            to="/ui-elements"
             aria-expanded="false"
             aria-controls="ui-basic"
             activeClassName="active"
@@ -306,7 +306,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <NavLink
             className="nav-link"
-            to="pages/forms"
+            to="/pages/Form-element"
             activeClassName="active"
           >
             <span className="menu-icon">
@@ -318,7 +318,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <NavLink
             className="nav-link"
-            to="pages/tables"
+            to="/pages/tables"
             activeClassName="active"
           >
             <span className="menu-icon">
@@ -330,7 +330,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <NavLink
             className="nav-link"
-            to="pages/charts"
+            to="/pages/charts"
             activeClassName="active"
           >
             <span className="menu-icon">
@@ -342,7 +342,7 @@ const SideBar = () => {
         <li className="nav-item menu-items">
           <NavLink
             className="nav-link"
-            to="pages/icons"
+            to="/pages/icons"
             activeClassName="active"
           >
             <span className="menu-icon">
@@ -355,7 +355,7 @@ const SideBar = () => {
           <NavLink
             className="nav-link"
             data-toggle="collapse"
-            to="/user"
+            to="/use-pages"
             aria-expanded="false"
             aria-controls="auth"
             activeClassName="active"
@@ -407,7 +407,11 @@ const SideBar = () => {
           </div>
         </li>
         <li className="nav-item menu-items">
-          <NavLink className="nav-link" to="/document" activeClassName="active">
+          <NavLink
+            className="nav-link"
+            to="/pages/document"
+            activeClassName="active"
+          >
             <span className="menu-icon">
               <i class="fa-solid fa-book"></i>
             </span>

@@ -11,10 +11,12 @@ import SalseMetor from './Components/salseMetor/SalseMetor';
 
 import Dashbord from './Pages/dashbord/Dashbord';
 import UsePages from './Pages/use-pages/UsePages';
-import Charts from './Pages/dashbord/Charts';
-import FormElement from './Pages/dashbord/FormElement';
-import Icons from './Pages/dashbord/Icons';
-import Document from './Pages/use-pages/Document';
+import Charts from './Pages/charts/Charts';
+import FormElement from './Pages/form-element/FormElement';
+import Icons from './Pages/icons/Icons';
+import Document from './Pages/document/Document';
+import Tables from './Pages/tables/Tables';
+import UiElement from './Pages/ui-element/UiElement';
 
 export default function App() {
   return (
@@ -29,6 +31,9 @@ export default function App() {
           <Route path="/use-pages">
             <UsePages />
           </Route>
+          <Route path="/ui-elements">
+            <UiElement />
+          </Route>
           <Route path="/pages/charts">
             <Charts />
           </Route>
@@ -38,8 +43,11 @@ export default function App() {
           <Route path="/pages/icons">
             <Icons />
           </Route>
-          <Route path="/pages/icons">
+          <Route path="/pages/document">
             <Document />
+          </Route>
+          <Route path="/pages/tables">
+            <Tables />
           </Route>
           <div className="content-wrapper">
             <DashBordMeters />

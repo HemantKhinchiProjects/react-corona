@@ -160,11 +160,11 @@
   height: 46px;
   border-radius: 0px 100px 100px 0px;
 }
-.sidebar .nav .nav-item.active > .nav-link {
+.sidebar .nav .nav-item > .nav-link.active {
   background: #0f1015;
   position: relative;
 }
-.sidebar .nav .nav-item.active > .nav-link:before {
+.sidebar .nav .nav-item > .active.nav-link:before {
   content: '';
   width: 3px;
   height: 100%;
@@ -194,6 +194,6 @@
   line-height: 1;
   vertical-align: middle;
 }
-.sidebar .nav .nav-item.active > .nav-link .menu-title {
+.sidebar .nav .nav-item > .nav-link.active .menu-title {
   color: #ffffff;
 }
