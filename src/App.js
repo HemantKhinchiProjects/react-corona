@@ -5,10 +5,6 @@ import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
 import SideBar from './Components/Navbar/SideBar';
 
-
-
-
-
 import Dashbord from './Pages/dashbord/Dashbord';
 import UsePages from './Pages/use-pages/UsePages';
 import Charts from './Pages/charts/Charts';
@@ -26,6 +22,9 @@ export default function App() {
         <TopNavbar />
         <main className="main-panel">
           <div className="content-wrapper">
+            <Route path="/" exact>
+              <Dashbord />
+            </Route>
             <Route path="/dashbord">
               <Dashbord />
             </Route>
@@ -52,8 +51,6 @@ export default function App() {
             </Route>
           </div>
 
-          
-         
           <Footer />
         </main>
       </div>
