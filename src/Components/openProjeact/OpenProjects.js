@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardStyle from '../ui/CardStyle.js';
+import Data from './data';
+import Projectitem from './Projectitem';
 import './openproject.css';
 const OpenProjects = () => {
+  const [projectData] = useState(Data);
   return (
     <div class="col-md-8 grid-margin stretch-card">
       <CardStyle>
@@ -12,23 +15,11 @@ const OpenProjects = () => {
         <div className="row">
           <div className="col-12">
             <div class="preview-list">
-              <div class="preview-item border-bottom">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-primary">
-                    <i class="fa-solid fa-file-lines"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content d-sm-flex flex-grow">
-                  <div class="flex-grow">
-                    <h6 class="preview-subject">Admin dashboard design</h6>
-                    <p class="text-muted mb-0">Broadcast web app mockup</p>
-                  </div>
-                  <div class="mr-auto text-sm-right pt-2 pt-sm-0">
-                    <p class="text-muted">15 minutes ago</p>
-                    <p class="text-muted mb-0">30 tasks, 5 issues </p>
-                  </div>
-                </div>
-              </div>
+              {projectData.map((detailsN) => {
+                const { id, dec, details } = detailsN;
+                return <Projectitem key={id} dec={dec} details={details} />;
+              })}
+
               <div class="preview-item border-bottom">
                 <div class="preview-thumbnail">
                   <div class="preview-icon bg-success">
