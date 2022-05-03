@@ -6,8 +6,10 @@ const DashBordMeters = () => {
   return (
     <div className="row">
       {dailyData.map((info) => {
-        const { id, dec, amount, groth } = info;
-        return <Card key={id} dec={dec} amount={amount} groth={groth} />;
+        const { id, dec, amount, groth, img } = info;
+        return (
+          <Card key={id} dec={dec} amount={amount} groth={groth}  />
+        );
       })}
     </div>
   );

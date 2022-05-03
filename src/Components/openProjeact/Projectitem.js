@@ -3,8 +3,8 @@ const projectitem = (props) => {
   return (
     <div class="preview-item border-bottom">
       <div class="preview-thumbnail">
-        <div class="preview-icon bg-success">
-          <i class="fa-solid fa-cloud-arrow-down"></i>
+        <div class={`preview-icon bg-${props.classes}`}>
+          <i class={`fa-solid fa-${props.img}`}></i>
         </div>
       </div>
       <div class="preview-item-content d-sm-flex flex-grow">
