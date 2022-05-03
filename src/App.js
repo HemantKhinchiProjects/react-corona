@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import './style.css';
 import Footer from './Components/Footer/Footer';
 import TopNavbar from './Components/Navbar/TopNavbar';
@@ -22,9 +22,8 @@ export default function App() {
         <TopNavbar />
         <main className="main-panel">
           <div className="content-wrapper">
-            <Route path="/" exact>
-              <Dashbord />
-            </Route>
+            <Redirect to="/dashbord" />
+
             <Route path="/dashbord">
               <Dashbord />
             </Route>
