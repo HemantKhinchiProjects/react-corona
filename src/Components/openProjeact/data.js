@@ -10,7 +10,7 @@ export default [
     id: 2,
     dec: 'Wordpress Development',
     details: 'Upload new design',
-    img: 'wordpress',
+    img: 'globe',
     classes: 'info',
   },
   {
@@ -31,7 +31,7 @@ export default [
     id: 5,
     dec: 'UI Design',
     details: 'New application planning',
-    img: 'guilded',
+    img: 'guitar',
     classes: 'success',
   },
 ];
