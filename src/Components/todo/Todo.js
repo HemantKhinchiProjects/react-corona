@@ -1,0 +1,40 @@
+import React, { useState } from 'react';
+import CardStyle from '../ui/CardStyle';
+import HeaderTodo from './header/todoheader';
+import TodoListHolder from './todo_list/todoListHolder';
+const Todo = () => {
+  const [todoItems, setTodoItems] = useState([
+    { id: 1, name: 'Hit the gym' },
+    { id: 2, name: 'Pay bills' },
+    { id: 3, name: 'Meet George' },
+    { id: 4, name: 'Buy eggs' },
+    { id: 5, name: 'Read a book' },
+    { id: 6, name: 'Organize office' },
+  ]);
+
+  const onSaveHandler = (name) => {
+    setTodoItems([
+      ...todoItems,
+      {
+        id: Math.random().toString(),
+        name,
+      },
+    ]);
+  };
+  const removeItem = (id) => {
+    const newItems = todoItems.filter((item) => item.id !== id);
+    setTodoItems(newItems);
+  };
+  return (
+    <div class="col-md-6 col-xl-4 grid-margin stretch-card">
+      <CardStyle>
+        <h4 class="card-title">Todo list</h4>
+        <HeaderTodo onSaveTodoData={onSaveHandler} />
+        <div>
+          <TodoListHolder removeItem={removeItem} todoNames={todoItems} />
+        </div>
+      </CardStyle>
+    </div>
+  );
+};
+export default Todo;

@@ -4,6 +4,7 @@ import TransactionHistory from '../../Components/transactionHistory/TransactionH
 import OpenProjects from '../../Components/openProjeact/OpenProjects';
 import SalseMetor from '../../Components/salseMetor/SalseMetor';
 import PortfolioSlide from '../../Components/protfolioSlid/PortfolioSlide';
+import Todo from '../../Components/todo/Todo';
 const Dashbord = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Dashbord = () => {
       </div>
       <div className="row">
         <PortfolioSlide />
+        <Todo />
       </div>
     </>
   );
