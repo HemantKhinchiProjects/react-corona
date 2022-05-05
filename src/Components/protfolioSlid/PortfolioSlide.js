@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CardStyle from '../../ui/CardStyle';
+import CardStyle from '../ui/CardStyle';
+import './portfolio-slide.css';
 import data from './data';
 const PortfolioSlide = () => {
   const [people, setPeople] = useState(data);
@@ -22,13 +23,8 @@ const PortfolioSlide = () => {
   return (
     <div className="col-md-6 col-xl-4 grid-margin stretch-card">
       <CardStyle>
+        <h4 class="card-title">Portfolio slide</h4>
         <section className="section">
-          <div className="title">
-            <h2>
-              <span>/</span>
-              Review
-            </h2>
-          </div>
           <div className="section-center">
             {people.map((person, personIndex) => {
               const { id, image, name, title, quote } = person;
